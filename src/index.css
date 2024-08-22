@@ -1,4 +1,14 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  font-family: 'Oswald', sans-serif;
+
+}
+
 body {
+  
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +20,168 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bg-dark{
+  background-color: #000000 !important;
+}
+
+.vr{
+  height: 250px;
+  background-color: aliceblue;
+  opacity: 1;
+  width: 4px;
+}
+
+.header{
+  background-image: url(./images/1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  width: 100%;
+  height: 110vh;
+  
+}
+
+.welcome{
+  height: 100%; 
+}
+
+.artist{
+  background-image: url(./images/2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  color: #f0f8ff;
+}
+
+.bg-img{
+  width: auto;
+  height: auto;
+  background: url("https://i.postimg.cc/fLDyFnYF/a-2.jpg") no-repeat;
+  -moz-box-shadow: inset 10px 10px 50px #fff;
+  -webkit-box-shadow: inset 10px 10px 50px #fff;
+  box-shadow: inset 10px 10px 50px #fff;
+}
+
+.img-cont {
+  overflow: hidden;
+}
+
+.piercing{
+  background-image: url(./images/16.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.gallery{
+  columns:2 320px;
+  column-gap: 0.5em;
+}
+
+.gallery img{
+  max-width: 100%;
+  margin-bottom: 0.5em;
+  display: block;
+}
+
+.titulo{
+  font-size: 4.6em;
+  font-weight: 800;
+}
+
+.subtitulo{
+  font-size: 2.8em;
+  font-weight: 800;
+}
+
+.bold {
+  font-weight: 800!important;
+}
+
+hr{
+  background-color: #000000!important;
+  opacity: 1!important;
+}
+
+textarea {
+  resize: none;
+}
+
+
+/*  ANIMACIONES  */
+
+#tatto-animation{
+
+  height: 300px;
+
+  animation-fill-mode: backwards;
+  height: 300px;
+  animation-name: loop;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  animation-direction: initial;
+  animation-timing-function: step-end;
+}
+
+#logo{
+  height: 150px;
+}
+
+.logo{
+  animation-name: scale;
+  animation-duration: .8s;
+  animation-iteration-count:initial;
+  animation-play-state:running;
+  animation-fill-mode: forwards;
+  animation-direction:normal;
+}
+
+
+
+@keyframes loop{  
+  0%{
+    width: 100%;
+    height: 100%;
+    background-image: url(../src/images/12.png);
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+  25%{
+    width: 100%;
+    height: 100%;
+    background-image: url(../src/images/13.png);
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+  50%{
+    width: 100%;
+    height: 100%;
+    background-image: url(../src/images/14.png);
+    background-position: left;
+    background-repeat: no-repeat;
+  }
+  80%{
+    width: 100%;
+    height: 100%;
+    background-image: url(../src/images/15.png);
+    background-position: left;
+    background-repeat: no-repeat;
+ }  
+}
+
+@keyframes scale{
+  0%{
+    height: 150px;
+  }
+
+  100%{
+    height: 100px;
+  }
 }
