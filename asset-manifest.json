@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tatto-studio/static/css/main.b4978adb.css",
-    "main.js": "/tatto-studio/static/js/main.e44bc44a.js",
+    "main.js": "/tatto-studio/static/js/main.c032f4f6.js",
     "static/media/royal_tatto.png": "/tatto-studio/static/media/royal_tatto.d081e608ccdba9b1449e.png",
     "static/media/2.png": "/tatto-studio/static/media/2.e59675ed91d480c25758.png",
     "static/media/profit_rony.jpg": "/tatto-studio/static/media/profit_rony.01d285f4d95c5055ba4d.jpg",
@@ -11,10 +11,10 @@
     "static/media/15.png": "/tatto-studio/static/media/15.8354d12beede45e29bd3.png",
     "index.html": "/tatto-studio/index.html",
     "main.b4978adb.css.map": "/tatto-studio/static/css/main.b4978adb.css.map",
-    "main.e44bc44a.js.map": "/tatto-studio/static/js/main.e44bc44a.js.map"
+    "main.c032f4f6.js.map": "/tatto-studio/static/js/main.c032f4f6.js.map"
   },
   "entrypoints": [
     "static/css/main.b4978adb.css",
-    "static/js/main.e44bc44a.js"
+    "static/js/main.c032f4f6.js"
   ]
 }
