@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Piercing from './components/Piercing';
 import Welcome from './components/Welcome';
 import Map from './components/Map';
+import { FacebookComments } from './components/FacebookComments';
 
 function App() {
   return (
@@ -20,6 +21,11 @@ function App() {
       <Piercing/>
       <Contact/>
       <Form/>
+      <FacebookComments
+       url="https://alfonsopechmag.github.io/tatto-studio/" 
+       width="100%" 
+       numPosts={5} 
+      />
       <Map/>
     </>
   );
